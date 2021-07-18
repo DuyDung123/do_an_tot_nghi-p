@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">smarthome</string>
+    <string name="DangNhap">Đăng Nhập</string>
+    <string name="Tendangnhap">Tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="trangchu">Home</string>
+    <string name="Device">Device</string>
+    <string name="Chart">Chart</string>
+    <string name="DsDevice">DS Device</string>
+    <string name="setting">Settings</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title">Smart Home</string>
+    <string name="nav_header_subtitle">edit by dinh van dung</string>
+    <string name="mo">Mở</string>
+    <string name="dong">Đóng</string>
+    <string name="addDevice">Add</string>
+    <string name="NameDevice">Tên thiết bị</string>
+    <string name="CodeDevice">Mã thiết bị</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="addipserver">add ip server</string>
+    <string name="ipserver">ip server</string>
+    <string name="addDevice1">Add Device</string>
+    <string name="addDevice2">Update Device</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundDangNhap"
+    tools:context=".SettingsActivity">
+
+
+    <TextView
+        android:id="@+id/txtSetingIp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size30sp"
+        android:text="@string/addipserver"
+        android:layout_above="@+id/lnSetings"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/size70dp"
+        android:layout_marginBottom="@dimen/size10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/lnSetings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+
+        <EditText
+            android:id="@+id/edIpserver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ipserver"
+            android:padding="@dimen/size10dp"
+            android:layout_marginLeft="@dimen/size10dp"
+            android:layout_marginRight="@dimen/size10dp"
+            android:layout_marginBottom="@dimen/size10dp"
+            android:background="@color/colorWhite"
+            android:textColorHint="@color/colorGray"
+            android:drawablePadding="@dimen/size10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorGray"
+            />
+        <Button
+            android:id="@+id/btnsubmitSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_settings"
+            android:padding="@dimen/size10dp"
+            android:background="@color/colorRed"
+            android:layout_marginLeft="@dimen/size10dp"
+            android:layout_marginRight="@dimen/size10dp"
+            android:layout_marginBottom="@dimen/size10dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnUpdateSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_settings"
+            android:padding="@dimen/size10dp"
+            android:background="@color/colorRed"
+            android:layout_marginLeft="@dimen/size10dp"
+            android:layout_marginRight="@dimen/size10dp"
+            android:layout_marginBottom="@dimen/size10dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateDrawable="@drawable/progress" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itTrangChuMenu"
+            android:title="@string/Device"
+            android:icon="@drawable/device"/>
+        <item
+            android:id="@+id/itDeviceMenu"
+            android:title="@string/Chart"
+            android:icon="@drawable/chart" />
+        <item
+            android:id="@+id/itListDeviceMenu"
+            android:title="@string/DsDevice"
+            android:icon="@drawable/ic_menu_manage" />
+        <item
+            android:id="@+id/SettingMenu"
+            android:title="@string/setting"
+            android:icon="@drawable/caidat"
+            android:checked="true"/>
+    </group>
+</menu>

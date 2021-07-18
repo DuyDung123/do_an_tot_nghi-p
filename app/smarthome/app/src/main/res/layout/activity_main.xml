@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundDangNhap"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/main_dangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size30sp"
+        android:text="@string/DangNhap"
+        android:layout_above="@+id/lnKhungMainIcon"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/size100dp"
+        android:layout_marginBottom="@dimen/size20dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/lnKhungMainIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/device_main"
+            android:layout_width="@dimen/size70dp"
+            android:layout_height="@dimen/size70dp"
+            android:layout_marginLeft="@dimen/size50dp"
+            android:src="@drawable/device" />
+
+        <ImageView
+            android:id="@+id/chart_main"
+            android:layout_width="@dimen/size70dp"
+            android:layout_height="@dimen/size70dp"
+            android:layout_marginLeft="@dimen/size50dp"
+            android:src="@drawable/chart" />
+        <ImageView
+            android:id="@+id/user_main"
+            android:layout_width="@dimen/size70dp"
+            android:layout_height="@dimen/size70dp"
+            android:layout_marginLeft="@dimen/size50dp"
+            android:src="@drawable/nhanvien" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/settings_main"
+        android:layout_width="@dimen/size50dp"
+        android:layout_height="@dimen/size50dp"
+        android:layout_below="@+id/lnKhungMainIcon"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="@dimen/size190dp"
+        android:src="@drawable/icon_settings" />
+
+
+
+</RelativeLayout>
